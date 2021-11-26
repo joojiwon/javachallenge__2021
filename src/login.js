@@ -7,11 +7,7 @@ const loginbtn = document.getElementById("login__submit");
 
 function logincheck() {
     const ID = loginID.value;
-const PASSWORD = loginPW.value;
-if(localStorage.getItem(ID) == PASSWORD){
-    alert("SUCCESS");
-} else{
-    alert("wrong");
-}
+    const PASSWORD = loginPW.value;
+    localStorage.setItem(ID, PASSWORD);
 }
 loginbtn.addEventListener("click", logincheck);

@@ -9,7 +9,7 @@ function getclock() {
     const minutes = String(today.getMinutes()).padStart(2,"0");
     const seconds = String(today.getSeconds()).padStart(2,"0");
     clockTitle.innerText = `${today.getFullYear()},${month[today.getUTCMonth()]},${date},${days[today.getDay()]},
-    ${hours}H ${minutes}M ${seconds}S`
+    ${hours}:${minutes}:${seconds}`
 
 }
 getclock();
