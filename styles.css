@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import "reset.css";
 img {
     position: absolute;
     width: 100%;
@@ -8,4 +10,71 @@ img {
     top: 0;
     z-index: -1;
     opacity: 0.6;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clock {
+    margin: 20px;
+    background-color: thistle;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clock h1 {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+.js-clock {
+    font-size: 20px;
+    line-height: 25px;
+}
+#weather {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#weather div {
+    margin: 10px;
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+#login-form input {
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px;
+
+}
+#todo-form input{
+    border: none;
+    padding: 10px 0;
+    font-size: 15px;
+    margin: 10px;
+}
+#todo-list li {
+    margin: 5px 0;
+}
+#todo-list button {
+    margin: 0 5px;
 }
