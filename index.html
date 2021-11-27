@@ -12,7 +12,23 @@
         <h1>Now is ... </h1>
         <h3 class="js-clock"></h3>
     </section>
-<script src="src/index.js"></script>    
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <form id="login-form">
+        <input type="text" placeholder="ID" required/>
+        <input type="password" placeholder="password" required/>
+        <input type="submit" value="Log-in"/>
+    </form>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required/>
+    </form>
+    <ul id="todo-list"></ul>
+<script src="src/clock_image.js"></script> 
+<script src="src/todo.js"></script> 
+<script src="src/weather.js"></script> 
+<script src="src/login.js"></script>     
 </body>
 
 </html>
