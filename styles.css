@@ -20,7 +20,7 @@ body {
 }
 .clock {
     margin: 20px;
-    background-color: thistle;
+    background-color: lightgrey;
     border: 2px solid white;
     border-radius: 30px;
     color: white;
@@ -61,7 +61,7 @@ body {
 }
 #login-form input {
     border: none;
-    padding: 15px;
+    padding: 10px;
     font-size: 18px;
     margin: 10px;
 
